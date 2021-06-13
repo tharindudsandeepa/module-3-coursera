@@ -1,0 +1,50 @@
+*{
+    padding:0;
+    box-sizing: border-box;
+    margin:0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.navBar{
+    background-color: black;
+    color:blanchedalmond;
+    height:60px;
+    line-height:60px;
+    width: 100%;
+    margin-bottom:30px;
+    padding-bottom:10px;
+}
+.main{
+    text-align:center;
+}
+.main h2{
+    margin:10px;
+    padding:10px;
+    font-size:30px;
+}
+.food{
+    border:3px solid black;
+    margin:20px;
+    width:30%;
+    flex-direction:column;
+    display:inline-flex;
+    height:auto;
+}
+@media only screen and (max-width: 600px) {
+    .food{
+        width:100%;
+    }
+  }
+
+  @media only screen and (max-width:1200px) {
+    .food{
+        width:45%;
+        display:inline-flex;
+
+    }
+    #sushi{
+        width:100%;
+    }
+  }
